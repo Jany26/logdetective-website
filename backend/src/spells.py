@@ -344,3 +344,7 @@ def get_robots() -> str:
             return robots.read()
     except FileNotFoundError:
         return DEFAULT_ROBOTS
+
+
+def test_something(some_input: int):
+    return some_input * 2
